@@ -25,16 +25,16 @@ const GlobalStyle = createGlobalStyle`
 	}
 	
 	iframe {
-		font-family: 'Montserrat', sans-serif !important;
+		font-family: 'Nunito', sans-serif !important;
 	}
 
 	body {
 		overflow-x: hidden;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		font-weight: 400;
 		font-size: 13px;
 		line-height: 13px;
-		color: ${({ theme }) => theme.textColor};
+		color: ${({ theme }) => theme.textBlack};
 		background-color: ${({ theme }) => theme.bgColor};
 	}
 
@@ -43,8 +43,8 @@ const GlobalStyle = createGlobalStyle`
 	}
 	
 	main {
-		padding: 25px;
 		height: 100%;
+		padding: 0;
 	}
 	
 	#__next {

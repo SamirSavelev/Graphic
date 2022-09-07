@@ -2,51 +2,37 @@ import "styled-components";
 
 declare module "styled-components" {
   export interface DefaultTheme {
-    id?: string;
-    bgColor?: string;
-    blue?: string;
-    purpleGradient?: string;
-    warning?: string;
-    lightBlue?: string;
-    accent?: string;
-    black?: string;
-    textColor?: string;
-    white?: string;
-    whiteOpacity?: string;
-    whiteOpacity75?: string;
-    fillBlack?: string;
-    warningBg?: string;
-    activeBg?: string;
-    activeColor?: string;
-    warningColor?: string;
-    // Дополнительные
-    gray?: string;
-    gray2?: string;
-    gray3?: string;
-    gray4?: string;
-    darkGray?: string;
-    lightGray?: string;
-    lightGray2?: string;
-    lightGrayHover?: string;
-    skyBlue?: string;
-    green?: string;
-    lightBlue?: string;
-    lightBlue2?: string;
-    red?: string;
-    lightBlue?: string;
-    tableBorder?: string;
-    toggleActive?: string;
-    toggleInactive?: string;
-    // Кнопки
-    blueHover?: string;
-    blueDisabled?: string;
-    grayHover?: string; // secondary button hover
-    grayDisabled?: string; // secondary button disabled
-    grayDisabled2?: string;
-    // Бордеры
-    grayBorder?: string;
-    logoHover?: string;
-    logoLightHover?: string;
-    bgNewButtonPlus?: string;
+    id: string;
+    bgColor: string;
+    black: string;
+    white: string;
+    primary: string;
+    grey: string;
+    grey2: string;
+    greyHover: string;
+    lightGrey: string;
+    lightGrey2: string;
+    lightGrey3: string;
+    graphit: string;
+    textBlack: string;
+    textDarkGrey: string;
+    link: string;
+    red: string;
+    lightGreyHover: string;
+    logo: string;
+    logoHover: string;
+    green: string;
+    lightGreen: string;
+    green2: string;
+    orange: string;
+    yellow: string;
+    purple: string;
+    bgInput: string;
+    mainColor: string;
+    greyLink: string;
+    tooltip: string;
+    tooltipTitle: string;
+    dropdownItem: string;
+    rowHover: string;
   }
 }

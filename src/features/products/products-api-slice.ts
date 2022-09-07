@@ -1,25 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-
-interface IProduct {
-  id: number | null;
-  title: string | null;
-  description: string | null;
-  price: number | null;
-  discountPercentage: number | null;
-  rating: number | null;
-  stock: number | null;
-  brand: string | null;
-  category: string | null;
-  thumbnail: string | null;
-  images: Array<string>;
-}
-
-interface IProductsResponce {
-  products: Array<IProduct>;
-  total: number | null;
-  skip: number | null;
-  limit: number | null;
-}
+import { IProductsResponce } from "../../interfaces";
 
 export const productsApi = createApi({
   reducerPath: "productsApi",
